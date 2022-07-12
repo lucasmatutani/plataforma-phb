@@ -1,0 +1,10 @@
+.container-item{
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.container-img-txt{
+    display: flex;
+    flex-direction: row;
+}

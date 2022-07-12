@@ -6,6 +6,7 @@ import RadioFiltro from "./componentes/componentes-formulario/RadioFiltro";
 import ContainerRadioFiltro from "./componentes/componentes-formulario/ContainerRadioFiltro";
 import BotaoVoltar from './componentes/componentes-catalogo-lista/BotaoVoltar/index';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import ContainerCatalogoLista from "./componentes/componentes-catalogo-lista/ContainerCatalogoLista";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         <CampoPesquisa />
         <ContainerRadioFiltro />
       </Formulario>
-      <BotaoVoltar />
+      <ContainerCatalogoLista />
     </div>
   );
 }
